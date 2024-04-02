@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inpt data</title>
+    <style>
+        body {
+              font-family: Arial, sans-serif;
+              margin: 0;
+              padding: 0;
+          }
+          nav {
+              background-color: #23581e7a;
+              overflow: hidden;
+          }
+          nav a {
+              float: left;
+              display: block;
+              color: rgb(250, 248, 248);
+              text-align: center;
+              padding: 14px 20px;
+              text-decoration: none;
+          }
+          nav a:hover {
+              background-color: #175c3c;
+              color: rgb(250, 248, 248);
+          }
+          .container {
+              padding: 20px;
+          }
+          /* CSS untuk styling halaman */
+          body {
+              font-family: Arial, sans-serif;
+              margin: 0;
+              padding: 0;
+          }
+          .container {
+              padding: 20px;
+          }
+          form {
+              margin-top: 20px;
+          }
+          form input, form select {
+              margin-bottom: 10px;
+              width: 100%;
+              padding: 8px;
+              box-sizing: border-box;
+          }
+          form button {
+              background-color: #258329;
+              color: white;
+              padding: 10px 20px;
+              border: none;
+              cursor: pointer;
+          }
+          form button:hover {
+              background-color: #67d36b;
+          } 
+      </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="tentang-kami.html">TENTANG KAMI</a>
+        <a href="input-data.html">INPUT DATA</a>
+        <a href="jadwal-dokter.html">JADWAL DOKTER</a>
+        <a href="hubungi-kami.html">HUBUNGI KAMI</a>
+    </nav>
+
+
+    <div class="container">
+        <h2>INPUT DATA PASIEN</h2>
+        <form>
+            <label for="nama">Nama Pasien :</label>
+            <input type="text" id="nama" name="nama">
+            <label for="no">No. HP :</label>
+            <input type="text" id="no" name="no" placeholder="+62">
+            <label for="tipe">Tipe Kulit :</label>
+            <select id="tipe" name="tipe">
+                <option value="normal">normal</option>
+                <option value="kering">kering</option>
+                <option value="kombinasi">kombinasi</option>
+                <option value="berjerawat">berjerawat</option>
+            </select>
+            <label for="produk">Produk :</label>
+            <select id="produk" name="produk">
+                <option value="Paket Seri Bening 01">Paket Seri Bening 01</option>
+                <option value="Paket Whitening">Paket Whitening</option>
+                <option value="Paket Luminous">Paket Luminous</option>
+                <option value="Paket Acne">Paket Acne</option>
+                <option value="Day Cream">Day Cream</option>
+                <option value="Night Cream">Night Cream</option>
+                <option value="Paket Acne">Paket Acne</option>
+                <option value="Serum Kempling">Serum Kempling</option>
+                <option value="Serum Gold">Serum Gold</option>
+                <option value="Serum Vit C">Serum Vit C</option>
+                <option value="Serum Whitening">Serum Whitening</option>
+                <option value="Serum Acne">Serum Acne</option>
+                <option value="Pelembab Wajah">Pelembab Wajah</option>
+                <option value="Facial Wash Kulit Normal">Facial Wash Kulit Normal</option>
+                <option value="Facial Wash Oily">Facial Wash Oily</option>
+                <option value="Facial Wash Acne">Facial Wash Acne</option>
+                <option value="Facial Toner">Facial Toner</option>
+            </select>
+            <button type="submit">Simpan</button>
+        </form> 
+    </div>
+</body>
+</html>
